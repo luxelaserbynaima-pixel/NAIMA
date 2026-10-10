@@ -3,11 +3,11 @@
    ═══════════════════════════════════════════════════════════════ */
 const STORE = {
   name: 'Luxe Laser by Naima',
-  email: 'your-email@example.com', // البريد الذي سيستقبل الطلبات
-  formEndpoint: 'https://formsubmit.co/ajax/your-email@example.com', // غيّري البريد هنا أيضاً
-  currency: 'دج',
+  email: 'luxelaserbynaaima@gmail.com', // البريد الذي سيستقبل الطلبات
+  formEndpoint: 'https://formsubmit.co/ajax/luxelaserbynaaima@gmail.com', // غيّري البريد هنا أيضاً
+  currency: 'DH',
   products: [
-    {id:1,name:'جهاز إزالة الشعر IPL',category:'أجهزة IPL',price:18500,image:'assets/ipl-device.jpeg',emoji:'⚡',description:'جهاز IPL منزلي أنيق مع عدسة واسعة وملحقات كاملة للعناية الآمنة والمريحة في المنزل.',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
+    {id:1,name:'جهاز إزالة الشعر IPL',category:'أجهزة IPL',price:18500,image:'ipl-device.jpeg',emoji:'⚡',description:'جهاز IPL منزلي أنيق مع عدسة واسعة وملحقات كاملة للعناية الآمنة والمريحة في المنزل.',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
     {id:2,name:'جهاز الليزر المنزلي Pro',category:'أجهزة IPL',price:24500,emoji:'✦',description:'حل عملي للعناية المنزلية بتصميم مريح وخيارات متعددة تناسب روتينكِ.',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
     {id:3,name:'جهاز إزالة الشعر Mini',category:'أجهزة IPL',price:12900,emoji:'⚡',description:'حجم صغير وسهل الحمل، مناسب للمناطق الصغيرة واللمسات السريعة في أي وقت.',colors:[{name:'وردي فاتح',hex:'#e8aaa0'},{name:'أبيض',hex:'#f5f3f0'}]},
     {id:4,name:'نظارات حماية من الضوء',category:'إكسسوارات',price:1800,emoji:'🥽',description:'نظارات حماية مريحة للاستخدام أثناء جلسات العناية بأجهزة الضوء والليزر المنزلية.',colors:[{name:'أسود',hex:'#292323'}]},
