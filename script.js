@@ -4,7 +4,7 @@
 const STORE = {
   name: 'Luxe Laser by Naima',
   email: 'luxelaserbynaaima@gmail.com', // البريد الذي سيستقبل الطلبات
-  formEndpoint: 'https://formsubmit.co/ajax/luxelaserbynaaima@gmail.com', // غيّري البريد هنا أيضاً
+  formEndpoint: 'https://formsubmit.co/luxelaserbynaaima@gmail.com', // غيّري البريد هنا أيضاً
   currency: 'DH',
   products: [
     {id:1,name:'جهاز إزالة الشعر IPL',category:'أجهزة IPL',price:18500,image:'ipl-device.jpeg',emoji:'⚡',description:'جهاز IPL منزلي أنيق مع عدسة واسعة وملحقات كاملة للعناية الآمنة والمريحة في المنزل.',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
