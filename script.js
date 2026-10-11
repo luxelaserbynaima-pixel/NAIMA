@@ -44,14 +44,7 @@ const STORE = {
 ]
 ,description:'جل منعش يساعد على تهدئة وترطيب البشرة قبل وبعد جلسة إزالة الشعر.',colors:[{name:'طبيعي',hex:'#dcece8'}]},
     {id:6,name:'شفرة تحضير البشرة',category:'العناية قبل وبعد',price:900,images: [
-  'product-1.jpeg',
-  'product-2.jpeg',
-  'product-3.jpeg',
-  'product-4.jpeg',
-  'product-5.jpeg',
-  'product-6.jpeg',
-  'product-7.jpeg',
-  'product-8.jpeg'
+  'L1.jpg',
 ]
 ,description:'أداة دقيقة لتحضير البشرة قبل الجلسة ومنحكِ تجربة أكثر سلاسة.',colors:[{name:'ذهبي',hex:'#c99968'}]},
     {id:7,name:'رأس بديل لجهاز IPL',category:'إكسسوارات',price:4500,images: [
