@@ -48,14 +48,7 @@ const STORE = {
 ]
 ,description:'أداة دقيقة لتحضير البشرة قبل الجلسة ومنحكِ تجربة أكثر سلاسة.',colors:[{name:'ذهبي',hex:'#c99968'}]},
     {id:7,name:'رأس بديل لجهاز IPL',category:'إكسسوارات',price:4500,images: [
-  'product-1.jpeg',
-  'product-2.jpeg',
-  'product-3.jpeg',
-  'product-4.jpeg',
-  'product-5.jpeg',
-  'product-6.jpeg',
-  'product-7.jpeg',
-  'product-8.jpeg'
+  'O1.jpg',
 ]
 ,description:'رأس بديل عملي للحفاظ على أداء جهازكِ وتجديد تجربة العناية المنزلية.',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
     {id:8,name:'حقيبة حفظ الجهاز والملحقات',category:'إكسسوارات',price:3500,images: [
