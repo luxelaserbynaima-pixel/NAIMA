@@ -4,7 +4,8 @@
 const STORE = {
   name: 'Luxe Laser by Naima',
   email: 'luxelaserbynaaima@gmail.com', // البريد الذي سيستقبل الطلبات
-  formEndpoint: 'https://formsubmit.co/luxelaserbynaaima@gmail.com', // غيّري البريد هنا أيضاً
+  formEndpoint: 'https://formsubmit.co/ajax/luxelaserbynaaima@gmail.com',
+, // غيّري البريد هنا أيضاً
   currency: 'DH',
   products: [
     // أضيفي حتى ٨ صور داخل images لكل منتج، مثلاً:
