@@ -10,7 +10,7 @@ const STORE = {
     // أضيفي حتى ٨ صور داخل images لكل منتج، مثلاً:
     // images:['ipl-device.jpeg','ipl-device-2.jpeg','ipl-device-3.jpeg']
     // إذا لم تستخدمي images فسيتم استعمال image القديمة تلقائياً.
-    {id:1,name:'MLAY14',price:18500,images: [
+    {id:1,name:'MLAY14',price:3800,images: [
   'IMG1.jpg',
   'IMG10.jpg',
   'IMG2.jpg',
@@ -26,7 +26,7 @@ const STORE = {
   'IMG.jpg',
 ]
 ,description:'حل عملي للعناية المنزلية بتصميم مريح وخيارات متعددة تناسب روتينكِ.',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
-    {id:3,name:'MLAY T4',price:3800,images: [
+    {id:3,name:'MLAY T4',price:2700,images: [
   'M1.jpg',
   'M2.jpg',
   'M3.jpg',
