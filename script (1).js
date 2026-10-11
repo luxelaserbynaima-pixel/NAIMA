@@ -10,14 +10,94 @@ const STORE = {
     // أضيفي حتى ٨ صور داخل images لكل منتج، مثلاً:
     // images:['ipl-device.jpeg','ipl-device-2.jpeg','ipl-device-3.jpeg']
     // إذا لم تستخدمي images فسيتم استعمال image القديمة تلقائياً.
-    {id:1,name:'جهاز إزالة الشعر IPL',category:'أجهزة IPL',price:18500,image:'ipl-device.jpeg',emoji:'⚡',description:'جهاز IPL منزلي أنيق مع عدسة واسعة وملحقات كاملة للعناية الآمنة والمريحة في المنزل.',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
-    {id:2,name:'جهاز الليزر المنزلي Pro',category:'أجهزة IPL',price:24500,emoji:'✦',description:'حل عملي للعناية المنزلية بتصميم مريح وخيارات متعددة تناسب روتينكِ.',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
-    {id:3,name:'جهاز إزالة الشعر Mini',category:'أجهزة IPL',price:12900,emoji:'⚡',description:'حجم صغير وسهل الحمل، مناسب للمناطق الصغيرة واللمسات السريعة في أي وقت.',colors:[{name:'وردي فاتح',hex:'#e8aaa0'},{name:'أبيض',hex:'#f5f3f0'}]},
-    {id:4,name:'نظارات حماية من الضوء',category:'إكسسوارات',price:1800,emoji:'🥽',description:'نظارات حماية مريحة للاستخدام أثناء جلسات العناية بأجهزة الضوء والليزر المنزلية.',colors:[{name:'أسود',hex:'#292323'}]},
-    {id:5,name:'جل تبريد وترطيب',category:'العناية قبل وبعد',price:2200,emoji:'🧴',description:'جل منعش يساعد على تهدئة وترطيب البشرة قبل وبعد جلسة إزالة الشعر.',colors:[{name:'طبيعي',hex:'#dcece8'}]},
-    {id:6,name:'شفرة تحضير البشرة',category:'العناية قبل وبعد',price:900,emoji:'✨',description:'أداة دقيقة لتحضير البشرة قبل الجلسة ومنحكِ تجربة أكثر سلاسة.',colors:[{name:'ذهبي',hex:'#c99968'}]},
-    {id:7,name:'رأس بديل لجهاز IPL',category:'إكسسوارات',price:4500,emoji:'◈',description:'رأس بديل عملي للحفاظ على أداء جهازكِ وتجديد تجربة العناية المنزلية.',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
-    {id:8,name:'حقيبة حفظ الجهاز والملحقات',category:'إكسسوارات',price:3500,emoji:'👜',description:'حقيبة أنيقة لحفظ جهاز IPL والملحقات بطريقة مرتبة وآمنة.',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}
+    {id:1,name:'جهاز إزالة الشعر IPL',category:'أجهزة IPL',price:18500,images: [
+  'product-1.',
+  'product-2.jpeg',
+  'product-3.jpeg',
+  'product-4.jpeg',
+  'product-5.jpeg',
+  'product-6.jpeg',
+  'product-7.jpeg',
+  'product-8.jpeg'
+]
+,emoji:'⚡',description:'جهاز IPL منزلي أنيق مع عدسة واسعة وملحقات كاملة للعناية الآمنة والمريحة في المنزل.',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
+    {id:2,name:'جهاز الليزر المنزلي Pro',category:'أجهزة IPL',price:24500,images: [
+  'product-1.jpeg',
+  'product-2.jpeg',
+  'product-3.jpeg',
+  'product-4.jpeg',
+  'product-5.jpeg',
+  'product-6.jpeg',
+  'product-7.jpeg',
+  'product-8.jpeg'
+]
+,description:'حل عملي للعناية المنزلية بتصميم مريح وخيارات متعددة تناسب روتينكِ.',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
+    {id:3,name:'جهاز إزالة الشعر Mini',category:'أجهزة IPL',price:12900,images: [
+  'product-1.jpeg',
+  'product-2.jpeg',
+  'product-3.jpeg',
+  'product-4.jpeg',
+  'product-5.jpeg',
+  'product-6.jpeg',
+  'product-7.jpeg',
+  'product-8.jpeg'
+]
+,description:'حجم صغير وسهل الحمل، مناسب للمناطق الصغيرة واللمسات السريعة في أي وقت.',colors:[{name:'وردي فاتح',hex:'#e8aaa0'},{name:'أبيض',hex:'#f5f3f0'}]},
+    {id:4,name:'نظارات حماية من الضوء',category:'إكسسوارات',price:1800,images: [
+  'product-1.jpeg',
+  'product-2.jpeg',
+  'product-3.jpeg',
+  'product-4.jpeg',
+  'product-5.jpeg',
+  'product-6.jpeg',
+  'product-7.jpeg',
+  'product-8.jpeg'
+]
+,description:'نظارات حماية مريحة للاستخدام أثناء جلسات العناية بأجهزة الضوء والليزر المنزلية.',colors:[{name:'أسود',hex:'#292323'}]},
+    {id:5,name:'جل تبريد وترطيب',category:'العناية قبل وبعد',price:2200,images: [
+  'product-1.jpeg',
+  'product-2.jpeg',
+  'product-3.jpeg',
+  'product-4.jpeg',
+  'product-5.jpeg',
+  'product-6.jpeg',
+  'product-7.jpeg',
+  'product-8.jpeg'
+]
+,description:'جل منعش يساعد على تهدئة وترطيب البشرة قبل وبعد جلسة إزالة الشعر.',colors:[{name:'طبيعي',hex:'#dcece8'}]},
+    {id:6,name:'شفرة تحضير البشرة',category:'العناية قبل وبعد',price:900,images: [
+  'product-1.jpeg',
+  'product-2.jpeg',
+  'product-3.jpeg',
+  'product-4.jpeg',
+  'product-5.jpeg',
+  'product-6.jpeg',
+  'product-7.jpeg',
+  'product-8.jpeg'
+]
+,description:'أداة دقيقة لتحضير البشرة قبل الجلسة ومنحكِ تجربة أكثر سلاسة.',colors:[{name:'ذهبي',hex:'#c99968'}]},
+    {id:7,name:'رأس بديل لجهاز IPL',category:'إكسسوارات',price:4500,images: [
+  'product-1.jpeg',
+  'product-2.jpeg',
+  'product-3.jpeg',
+  'product-4.jpeg',
+  'product-5.jpeg',
+  'product-6.jpeg',
+  'product-7.jpeg',
+  'product-8.jpeg'
+]
+,description:'رأس بديل عملي للحفاظ على أداء جهازكِ وتجديد تجربة العناية المنزلية.',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
+    {id:8,name:'حقيبة حفظ الجهاز والملحقات',category:'إكسسوارات',price:3500,images: [
+  'product-1.jpeg',
+  'product-2.jpeg',
+  'product-3.jpeg',
+  'product-4.jpeg',
+  'product-5.jpeg',
+  'product-6.jpeg',
+  'product-7.jpeg',
+  'product-8.jpeg'
+]
+,description:'حقيبة أنيقة لحفظ جهاز IPL والملحقات بطريقة مرتبة وآمنة.',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}
   ]
 };
 let cart = JSON.parse(localStorage.getItem('luxeCart') || '[]');
