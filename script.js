@@ -10,7 +10,7 @@ const STORE = {
     // أضيفي حتى ٨ صور داخل images لكل منتج، مثلاً:
     // images:['ipl-device.jpeg','ipl-device-2.jpeg','ipl-device-3.jpeg']
     // إذا لم تستخدمي images فسيتم استعمال image القديمة تلقائياً.
-    {id:1,name:'MLAY14',category:'أجهزة IPL',price:18500,images: [
+    {id:1,name:'MLAY14',price:18500,images: [
   'IMG1.jpg',
   'IMG10.jpg',
   'IMG2.jpg',
