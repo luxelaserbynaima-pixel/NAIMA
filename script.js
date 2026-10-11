@@ -11,14 +11,14 @@ const STORE = {
     // images:['ipl-device.jpeg','ipl-device-2.jpeg','ipl-device-3.jpeg']
     // إذا لم تستخدمي images فسيتم استعمال image القديمة تلقائياً.
     {id:1,name:'جهاز إزالة الشعر IPL',category:'أجهزة IPL',price:18500,images: [
-  '.IMG1.jpg',
-  '.IMG10.jpg',
-  '.IMG2.jpg',
-  '.IMG4.jpg',
-  '.IMG5.jpg',
-  '.IMG6.jpg',
-  '.IMG7.jpg',
-  '.IMG8.jpg'
+  'IMG1.jpg',
+  'IMG10.jpg',
+  'IMG2.jpg',
+  'IMG4.jpg',
+  'IMG5.jpg',
+  'IMG6.jpg',
+  'IMG7.jpg',
+  'IMG8.jpg'
 ]
 ,emoji:'⚡',description:'جهاز IPL منزلي أنيق مع عدسة واسعة وملحقات كاملة للعناية الآمنة والمريحة في المنزل.',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
     {id:2,name:'جهاز الليزر المنزلي Pro',category:'أجهزة IPL',price:24500,images: [
