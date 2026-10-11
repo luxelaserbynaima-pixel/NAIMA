@@ -39,7 +39,7 @@ const STORE = {
   'IMG-20261008-WA0002.jpg',
 ]
 ,description:'999.999 ومضة',colors:[{name:'أسود',hex:'#292323'}]},
-    {id:5,name:'Ulike Sapphire Air+Copy',price:2500_3500,images: [
+    {id:5,name:'Ulike Sapphire Air+Copy',price:2500,images: [
   'T1.jpeg',
   'T2.jpg',
 ]
