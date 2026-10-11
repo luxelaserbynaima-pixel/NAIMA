@@ -26,7 +26,7 @@ const STORE = {
   'IMG.jpg',
 ]
 ,description:'حل عملي للعناية المنزلية بتصميم مريح وخيارات متعددة تناسب روتينكِ.',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
-    {id:3,name:'MLAY T4',category:'أجهزة IPL',price:12900,images: [
+    {id:3,name:'MLAY T4',category:'أجهزة IPL',price:3800,images: [
   'M1.jpg',
   'M2.jpg',
   'M3.jpg',
@@ -38,7 +38,7 @@ const STORE = {
   'IMG-20261008-WA0002.jpg',
 ]
 ,description:'نظارات حماية مريحة للاستخدام أثناء جلسات العناية بأجهزة الضوء والليزر المنزلية.',colors:[{name:'أسود',hex:'#292323'}]},
-    {id:5,name:'دفايس مع تبريد او بدون',category:'العناية قبل وبعد',price:2500.3500,images: [
+    {id:5,name:'دفايس مع تبريد او بدون',category:'العناية قبل وبعد',price:2500_3500,images: [
   'T1.jpeg',
   'T2.jpg',
 ]
