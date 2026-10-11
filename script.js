@@ -10,7 +10,7 @@ const STORE = {
     // أضيفي حتى ٨ صور داخل images لكل منتج، مثلاً:
     // images:['ipl-device.jpeg','ipl-device-2.jpeg','ipl-device-3.jpeg']
     // إذا لم تستخدمي images فسيتم استعمال image القديمة تلقائياً.
-    {id:1,name:'جهاز إزالة الشعر IPL',category:'أجهزة IPL',price:18500,images: [
+    {id:1,name:'MLAY14',category:'أجهزة IPL',price:18500,images: [
   'IMG1.jpg',
   'IMG10.jpg',
   'IMG2.jpg',
@@ -26,7 +26,7 @@ const STORE = {
   'IMG.jpg',
 ]
 ,description:'حل عملي للعناية المنزلية بتصميم مريح وخيارات متعددة تناسب روتينكِ.',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
-    {id:3,name:'جهاز إزالة الشعر Mini',category:'أجهزة IPL',price:12900,images: [
+    {id:3,name:'MLAY T4',category:'أجهزة IPL',price:12900,images: [
   'M1.jpg',
   'M2.jpg',
   'M3.jpg',
@@ -38,28 +38,21 @@ const STORE = {
   'IMG-20261008-WA0002.jpg',
 ]
 ,description:'نظارات حماية مريحة للاستخدام أثناء جلسات العناية بأجهزة الضوء والليزر المنزلية.',colors:[{name:'أسود',hex:'#292323'}]},
-    {id:5,name:'جل تبريد وترطيب',category:'العناية قبل وبعد',price:2200,images: [
+    {id:5,name:'دفايس مع تبريد او بدون',category:'العناية قبل وبعد',price:2500.3500,images: [
   'T1.jpeg',
   'T2.jpg',
 ]
 ,description:'جل منعش يساعد على تهدئة وترطيب البشرة قبل وبعد جلسة إزالة الشعر.',colors:[{name:'طبيعي',hex:'#dcece8'}]},
-    {id:6,name:'شفرة تحضير البشرة',category:'العناية قبل وبعد',price:900,images: [
+    {id:6,name:'شفرة تحضير البشرة',category:'العناية قبل وبعد',price:2900,images: [
   'L1.jpg',
 ]
 ,description:'أداة دقيقة لتحضير البشرة قبل الجلسة ومنحكِ تجربة أكثر سلاسة.',colors:[{name:'ذهبي',hex:'#c99968'}]},
-    {id:7,name:'رأس بديل لجهاز IPL',category:'إكسسوارات',price:4500,images: [
+    {id:7,name:'رأس بديل لجهاز IPL',category:'إكسسوارات',price:1200,images: [
   'O1.jpg',
 ]
 ,description:'رأس بديل عملي للحفاظ على أداء جهازكِ وتجديد تجربة العناية المنزلية.',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
-    {id:8,name:'حقيبة حفظ الجهاز والملحقات',category:'إكسسوارات',price:3500,images: [
-  'product-1.jpeg',
-  'product-2.jpeg',
-  'product-3.jpeg',
-  'product-4.jpeg',
-  'product-5.jpeg',
-  'product-6.jpeg',
-  'product-7.jpeg',
-  'product-8.jpeg'
+    {id:8,name:'حقيبة حفظ الجهاز والملحقات',category:'إكسسوارات',price:1900,images: [
+  'N1.jpg',
 ]
 ,description:'حقيبة أنيقة لحفظ جهاز IPL والملحقات بطريقة مرتبة وآمنة.',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}
   ]
