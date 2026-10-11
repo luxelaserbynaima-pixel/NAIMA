@@ -39,14 +39,8 @@ const STORE = {
 ]
 ,description:'نظارات حماية مريحة للاستخدام أثناء جلسات العناية بأجهزة الضوء والليزر المنزلية.',colors:[{name:'أسود',hex:'#292323'}]},
     {id:5,name:'جل تبريد وترطيب',category:'العناية قبل وبعد',price:2200,images: [
-  'product-1.jpeg',
-  'product-2.jpeg',
-  'product-3.jpeg',
-  'product-4.jpeg',
-  'product-5.jpeg',
-  'product-6.jpeg',
-  'product-7.jpeg',
-  'product-8.jpeg'
+  'T1.jpg',
+  'T2.jpg',
 ]
 ,description:'جل منعش يساعد على تهدئة وترطيب البشرة قبل وبعد جلسة إزالة الشعر.',colors:[{name:'طبيعي',hex:'#dcece8'}]},
     {id:6,name:'شفرة تحضير البشرة',category:'العناية قبل وبعد',price:900,images: [
