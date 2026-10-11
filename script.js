@@ -27,14 +27,11 @@ const STORE = {
 ]
 ,description:'حل عملي للعناية المنزلية بتصميم مريح وخيارات متعددة تناسب روتينكِ.',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
     {id:3,name:'جهاز إزالة الشعر Mini',category:'أجهزة IPL',price:12900,images: [
-  'product-1.jpeg',
-  'product-2.jpeg',
-  'product-3.jpeg',
-  'product-4.jpeg',
-  'product-5.jpeg',
-  'product-6.jpeg',
-  'product-7.jpeg',
-  'product-8.jpeg'
+  'M1.jpg',
+  'M2.jpg',
+  'M3.jpg',
+  'M4.jpg',
+
 ]
 ,description:'حجم صغير وسهل الحمل، مناسب للمناطق الصغيرة واللمسات السريعة في أي وقت.',colors:[{name:'وردي فاتح',hex:'#e8aaa0'},{name:'أبيض',hex:'#f5f3f0'}]},
     {id:4,name:'نظارات حماية من الضوء',category:'إكسسوارات',price:1800,images: [
