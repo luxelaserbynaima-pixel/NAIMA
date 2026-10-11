@@ -4,8 +4,7 @@
 const STORE = {
   name: 'Luxe Laser by Naima',
   email: 'luxelaserbynaaima@gmail.com', // البريد الذي سيستقبل الطلبات
-  formEndpoint: 'https://formsubmit.co/ajax/luxelaserbynaaima@gmail.com',
-, // غيّري البريد هنا أيضاً
+  formEndpoint: 'https://formsubmit.co/ajax/luxelaserbynaaima@gmail.com', // غيّري البريد هنا أيضاً
   currency: 'DH',
   products: [
     // أضيفي حتى ٨ صور داخل images لكل منتج، مثلاً:
@@ -20,42 +19,34 @@ const STORE = {
   'IMG6.jpg',
   'IMG7.jpg',
   'IMG8.jpg'
-]
-
-,emoji:'⚡',description:'500.000 ومضة +تبريد ICE',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
+],emoji:'⚡',description:'500.000 ومضة +تبريد ICE',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
     {id:2,name:'Generic Mini IPL',price:550,images: [
   'IMG.jpg',
-]
-,description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
+],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
     {id:3,name:'MLAY T4',price:2700,images: [
   'M1.jpg',
   'M2.jpg',
   'M3.jpg',
   'M4.jpg',
 
-]
-,description:'500.000 ومضة مع شاشة LCD',colors:[{name:'وردي فاتح',hex:'#e8aaa0'},{name:'أبيض',hex:'#f5f3f0'}]},
+],description:'500.000 ومضة مع شاشة LCD',colors:[{name:'وردي فاتح',hex:'#e8aaa0'},{name:'أبيض',hex:'#f5f3f0'}]},
     {id:4,name:'MyLady Happy Skin',price:850,images: [
   'IMG-20261008-WA0002.jpg',
-]
-,description:'999.999 ومضة',colors:[{name:'أسود',hex:'#292323'}]},
+],description:'999.999 ومضة',colors:[{name:'أسود',hex:'#292323'}]},
     {id:5,name:'Ulike Sapphire Air+Copy',price:2500,images: [
   'T1.jpeg',
   'T2.jpg',
-]
-,description:'تبريد 3 مستويات',colors:[{name:'طبيعي',hex:'#dcece8'}]},
+],description:'تبريد 3 مستويات',colors:[{name:'طبيعي',hex:'#dcece8'}]},
     {id:6,name:'Photon IPL',price:750,images: [
   'L1.jpg',
 ]
 ,description:'990.000 ومضة +شاشة رقمية',colors:[{name:'ذهبي',hex:'#c99968'}]},
     {id:7,name:'Mini IPL Handset',price:500,images: [
   'O1.jpg',
-]
-,description:'300.000-500.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
+],description:'300.000-500.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
     {id:8,name:'Mini IPL Handset',price:500,images: [
   'N1.jpg',
-]
-,description:'300.000-500.000 ومضة',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}
+],description:'300.000-500.000 ومضة',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}
   ]
 };
 let cart = JSON.parse(localStorage.getItem('luxeCart') || '[]');
