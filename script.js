@@ -20,7 +20,7 @@ const STORE = {
   'IMG7.jpg',
   'IMG8.jpg'
 ],emoji:'⚡',description:'500.000 ومضة +تبريد ICE',colors:[{name:'أبيض ووردي',hex:'#f6eee9'},{name:'أسود وذهبي',hex:'#292323'}]},
-    {id:2,name:'Generic Mini IPL',price:550,images: [
+    {id:2,name:'Generic Mini IPL',price:1400,images: [
   'IMG.jpg',
 ],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
     {id:3,name:'MLAY T4',price:2700,images: [
@@ -30,7 +30,7 @@ const STORE = {
   'M4.jpg',
 
 ],description:'500.000 ومضة مع شاشة LCD',colors:[{name:'وردي فاتح',hex:'#e8aaa0'},{name:'أبيض',hex:'#f5f3f0'}]},
-    {id:4,name:'MyLady Happy Skin',price:850,images: [
+    {id:4,name:'MyLady Happy Skin',price:1700,images: [
   'IMG-20261008-WA0002.jpg',
 ],description:'999.999 ومضة',colors:[{name:'أسود',hex:'#292323'}]},
     {id:5,name:'Ulike Sapphire Air+Copy',price:2500,images: [
@@ -41,10 +41,10 @@ const STORE = {
   'L1.jpg',
 ]
 ,description:'990.000 ومضة +شاشة رقمية',colors:[{name:'ذهبي',hex:'#c99968'}]},
-    {id:7,name:'Mini IPL Handset',price:500,images: [
+    {id:7,name:'Mini IPL Handset',price:1000,images: [
   'O1.jpg',
 ],description:'300.000-500.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
-    {id:8,name:'Mini IPL Handset',price:500,images: [
+    {id:8,name:'Mini IPL Handset',price:1000,images: [
   'N1.jpg',
 ],description:'300.000-500.000 ومضة',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}
   ]
