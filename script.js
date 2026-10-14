@@ -49,11 +49,11 @@ const STORE = {
   'q2.jpg',
   'q3.jpg',
 ],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
-      {id:8,name:'SAAOOT',price:5500,images: [
-  'q1.jpeg',
-  'q2.jpg',
+      {id:9,name:'SALLOOT',price:5500,images: [
+  'a2.jpeg',
+  'a3.jpg',
 ],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
-     {id:9,name:'Mini IPL Handset',price:1000,images: [
+     {id:10,name:'Mini IPL Handset',price:1000,images: [
   'N1.jpg',
 ],description:'300.000-500.000 ومضة',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}]};
 let cart = JSON.parse(localStorage.getItem('luxeCart') || '[]');
