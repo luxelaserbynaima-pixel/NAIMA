@@ -44,11 +44,12 @@ const STORE = {
     {id:7,name:'Mini IPL Handset',price:1000,images: [
   'O1.jpg',
 ],description:'300.000-500.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
-    {id:8,name:'Mini IPL Handset',price:1000,images: [
+    {id:8,name:'Generic Mini IPL',price:1400,images: [
+  'IMG.jpg',
+],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
+     {id:9,name:'Mini IPL Handset',price:1000,images: [
   'N1.jpg',
-],description:'300.000-500.000 ومضة',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}
-  ]
-};
+],description:'300.000-500.000 ومضة',colors:[{name:'روز',hex:'#c98478'},{name:'أسود',hex:'#292323'}]}]};
 let cart = JSON.parse(localStorage.getItem('luxeCart') || '[]');
 let activeProduct = null, selectedColor = null, quantity = 1, activeCategory = 'الكل';
 const $ = s => document.querySelector(s);
