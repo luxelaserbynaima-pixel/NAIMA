@@ -44,10 +44,14 @@ const STORE = {
     {id:7,name:'Mini IPL Handset',price:1000,images: [
   'O1.jpg',
 ],description:'300.000-500.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'}]},
-    {id:8,name:'Generic Mini IPL',price:1400,images: [
+    {id:8,name:'ICE-COOL',price:3200,images: [
   'q1.jpeg',
   'q2.jpg',
   'q3.jpg',
+],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
+      {id:8,name:'SAAOOT',price:5500,images: [
+  'q1.jpeg',
+  'q2.jpg',
 ],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
      {id:9,name:'Mini IPL Handset',price:1000,images: [
   'N1.jpg',
