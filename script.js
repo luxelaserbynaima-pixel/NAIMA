@@ -50,7 +50,7 @@ const STORE = {
   'q3.jpg',
 ],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
       {id:9,name:'SALLOOT',price:5500,images: [
-  'a2.jpeg',
+  'a2.jpg',
   'a3.jpg',
 ],description:'600.000 ومضة',colors:[{name:'أبيض',hex:'#f4f1ed'},{name:'وردي',hex:'#d88b82'}]},
      {id:10,name:'Mini IPL Handset',price:1000,images: [
