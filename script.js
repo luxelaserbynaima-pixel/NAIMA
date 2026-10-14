@@ -37,7 +37,7 @@ const STORE = {
   'T1.jpeg',
   'T2.jpg',
 ],description:'تبريد 3 مستويات',colors:[{name:'طبيعي',hex:'#dcece8'}]},
-    {id:6,name:'Photon IPL',price:750,images: [
+    {id:6,name:'Photon IPL',price:2900,images: [
   'L1.jpg',
 ]
 ,description:'990.000 ومضة +شاشة رقمية',colors:[{name:'ذهبي',hex:'#c99968'}]},
